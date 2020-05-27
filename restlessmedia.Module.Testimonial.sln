@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "restlessmedia.Module.Testimonial", "src\restlessmedia.Module.Testimonial.csproj", "{E669CC14-0813-426D-96F2-586FA81D23DD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "restlessmedia.Module.Testimonial.UnitTest", "restlessmedia.Module.Testimonial.UnitTest\restlessmedia.Module.Testimonial.UnitTest.csproj", "{45868AC8-56EB-4DA7-A578-0D5E220D42B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{27F7DBC1-226F-4710-83C2-61141E3EA5C8}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		appveyor.yml = appveyor.yml
+		nuget.config = nuget.config
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E669CC14-0813-426D-96F2-586FA81D23DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E669CC14-0813-426D-96F2-586FA81D23DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E669CC14-0813-426D-96F2-586FA81D23DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E669CC14-0813-426D-96F2-586FA81D23DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45868AC8-56EB-4DA7-A578-0D5E220D42B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45868AC8-56EB-4DA7-A578-0D5E220D42B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45868AC8-56EB-4DA7-A578-0D5E220D42B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45868AC8-56EB-4DA7-A578-0D5E220D42B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4185F663-4AF0-4796-808C-5943F179FCB8}
+	EndGlobalSection
+EndGlobal
